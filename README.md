@@ -1,5 +1,3 @@
-This is a basic react boilerplate for creating react applications.
+This is the starting point for the Reddit / Watson API Personality Calculator tutorial.
 
-You can start the app with npm run start-dev, which starts a server on localhost:3000.
-
-Redux comes preinstall, you'll just need to write a <Provider> HOC in client/index.js and import in a store.
+Make sure to npm install and then npm run start-dev to see the app on localhost:3000.

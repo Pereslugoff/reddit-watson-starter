@@ -1,0 +1,82 @@
+body {
+  background-color: white;
+  text-align: center;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+ul{
+  padding-inline-start: 0;
+}
+
+#app-container {
+  display: flex;
+  flex-direction: column;
+  width: 99vw;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 10vh;
+  background-color: salmon;
+  margin: 3em;
+}
+
+#nav h1 {
+  color: white;
+  font-size: 3em;
+}
+
+#subreddit-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#main-loader{
+  align-self: center;
+}
+
+.subreddit-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: salmon;
+}
+
+.personality-button {
+  background-color: white;
+  color: rgb(58, 58, 58);
+  font-weight: bold;
+  border-style: none;
+  height: 30%;
+  width: 30%;
+}
+
+.traits-container{
+  color: white;
+}
+
+.subreddit-list {
+  width: 40%
+}
+
+.subreddit-list-item{
+  text-align: left;
+  border-bottom: 2px solid gray;
+  padding: 1em 1em;
+  color: rgb(34, 34, 34);
+  font-style: italic;
+}
